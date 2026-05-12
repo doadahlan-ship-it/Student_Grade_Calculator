@@ -9,16 +9,10 @@ public class Main {
         System.out.print("Enter student score: ");
         double score = input.nextDouble();
 
-        if(score >= 90)
-            System.out.println("Grade: A");
-
-        else if(score >= 80)
-            System.out.println("Grade: B");
-
-        else if(score >= 70)
-            System.out.println("Grade: C");
+        if(score >= 60)
+            System.out.println("Pass");
 
         else
-            System.out.println("Grade: F");
+            System.out.println("Fail");
     }
 }
