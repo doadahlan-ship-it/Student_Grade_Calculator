@@ -6,19 +6,17 @@ public class Main {
 
         Scanner input = new Scanner(System.in);
 
-        System.out.print("Enter student score: ");
-        double score = input.nextDouble();
+        System.out.print("Enter first score: ");
+        double s1 = input.nextDouble();
 
-        if(score >= 90)
-            System.out.println("Grade: A");
+        System.out.print("Enter second score: ");
+        double s2 = input.nextDouble();
 
-        else if(score >= 80)
-            System.out.println("Grade: B");
+        System.out.print("Enter third score: ");
+        double s3 = input.nextDouble();
 
-        else if(score >= 70)
-            System.out.println("Grade: C");
+        double average = (s1 + s2 + s3) / 3;
 
-        else
-            System.out.println("Grade: F");
+        System.out.println("Average = " + average);
     }
 }
