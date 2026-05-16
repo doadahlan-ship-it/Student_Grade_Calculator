@@ -6,12 +6,21 @@ public class Main {
 
         Scanner input = new Scanner(System.in);
 
-        System.out.print("Enter student score: ");
-        double score = input.nextDouble();
+        System.out.print("Enter first score: ");
+        double s1 = input.nextDouble();
 
-        if(score >= 60)
+        System.out.print("Enter second score: ");
+        double s2 = input.nextDouble();
+
+        System.out.print("Enter third score: ");
+        double s3 = input.nextDouble();
+
+        double average = (s1 + s2 + s3) / 3;
+
+        System.out.println("Average = " + average);
+
+        if(average >= 60)
             System.out.println("Student Passed");
-
         else
             System.out.println("Student Failed");
     }
