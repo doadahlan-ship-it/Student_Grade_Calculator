@@ -18,5 +18,10 @@ public class Main {
         double average = (s1 + s2 + s3) / 3;
 
         System.out.println("Average = " + average);
+
+        if(average >= 60)
+            System.out.println("Student Passed");
+        else
+            System.out.println("Student Failed");
     }
 }
