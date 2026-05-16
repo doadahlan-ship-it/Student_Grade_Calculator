@@ -10,9 +10,9 @@ public class Main {
         double score = input.nextDouble();
 
         if(score >= 60)
-            System.out.println("Pass");
+            System.out.println("Student Passed");
 
         else
-            System.out.println("Fail");
+            System.out.println("Student Failed");
     }
 }
